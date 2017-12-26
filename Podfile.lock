@@ -1,0 +1,23 @@
+PODS:
+  - GoogleMaps (1.12.3)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - GoogleMaps (~> 1.12.1)
+  - SwiftyJSON (from `https://github.com/BaiduHiDeviOS/SwiftyJSON.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: de5dc3b1b421805769590d331178551bbb0e5733
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  GoogleMaps: a4ac67918d0b5ba5f6b9893ac80487e357779e6c
+  SwiftyJSON: 6118fb49d7519c4d31a0c1f3d5af936e9047b556
+
+COCOAPODS: 0.39.0

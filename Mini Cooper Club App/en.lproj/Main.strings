@@ -1,0 +1,105 @@
+
+/* Class = "UIButton"; normalTitle = "Новая группа"; ObjectID = "03m-Jg-fiI"; */
+"03m-Jg-fiI.normalTitle" = "Новая группа";
+
+/* Class = "UIButton"; normalTitle = "Назад"; ObjectID = "2x4-o2-FnM"; */
+"2x4-o2-FnM.normalTitle" = "Назад";
+
+/* Class = "UIButton"; normalTitle = "Войти"; ObjectID = "4hX-e2-cyM"; */
+"4hX-e2-cyM.normalTitle" = "Войти";
+
+/* Class = "UIButton"; normalTitle = "Отмена"; ObjectID = "6FZ-Qm-EYZ"; */
+"6FZ-Qm-EYZ.normalTitle" = "Отмена";
+
+/* Class = "UILabel"; text = "Новая группа"; ObjectID = "7IW-xq-04S"; */
+"7IW-xq-04S.text" = "Новая группа";
+
+/* Class = "UITextField"; placeholder = "X777XX777"; ObjectID = "8DK-gY-dVH"; */
+"8DK-gY-dVH.placeholder" = "X777XX777";
+
+/* Class = "UITextField"; text = "A000AE00"; ObjectID = "8DK-gY-dVH"; */
+"8DK-gY-dVH.text" = "A000AE00";
+
+/* Class = "UITabBarItem"; title = "Контакты"; ObjectID = "94h-AT-8a2"; */
+"94h-AT-8a2.title" = "Контакты";
+
+/* Class = "UILabel"; text = "Нет аккаунта?"; ObjectID = "CKg-dR-Zpf"; */
+"CKg-dR-Zpf.text" = "Нет аккаунта?";
+
+/* Class = "UILabel"; text = "Новый чат"; ObjectID = "CjZ-qW-RcE"; */
+"CjZ-qW-RcE.text" = "Новый чат";
+
+/* Class = "UITabBarItem"; title = "Карта"; ObjectID = "F6J-Gz-6gI"; */
+"F6J-Gz-6gI.title" = "Карта";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "FhV-Au-Lmb"; */
+"FhV-Au-Lmb.text" = "Username";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JJp-Ae-PSx"; */
+"JJp-Ae-PSx.text" = "Label";
+
+/* Class = "UILabel"; text = "12:50 PM"; ObjectID = "MIQ-4f-2Qw"; */
+"MIQ-4f-2Qw.text" = "12:50 PM";
+
+/* Class = "UITabBarItem"; title = "Поиск"; ObjectID = "Ofq-tK-KVH"; */
+"Ofq-tK-KVH.title" = "Поиск";
+
+/* Class = "UIButton"; normalTitle = "Далее"; ObjectID = "PKi-cz-np9"; */
+"PKi-cz-np9.normalTitle" = "Далее";
+
+/* Class = "UILabel"; text = "Выбор участников"; ObjectID = "PxU-cu-eW0"; */
+"PxU-cu-eW0.text" = "Выбор участников";
+
+/* Class = "UITextField"; placeholder = "Имя"; ObjectID = "Ttq-ji-byn"; */
+"Ttq-ji-byn.placeholder" = "Имя";
+
+/* Class = "UIButton"; normalTitle = "Проложить маршрут"; ObjectID = "U0W-Iy-H0n"; */
+"U0W-Iy-H0n.normalTitle" = "Проложить маршрут";
+
+/* Class = "UITextField"; placeholder = "Пароль"; ObjectID = "Vd6-l0-fYu"; */
+"Vd6-l0-fYu.placeholder" = "Пароль";
+
+/* Class = "UITextField"; text = "12345"; ObjectID = "XtO-Be-1Se"; */
+"XtO-Be-1Se.text" = "12345";
+
+/* Class = "UITextField"; placeholder = "Тема группы"; ObjectID = "cCc-dz-fDS"; */
+"cCc-dz-fDS.placeholder" = "Тема группы";
+
+/* Class = "UIButton"; normalTitle = "Создай!"; ObjectID = "dD2-ee-Aho"; */
+"dD2-ee-Aho.normalTitle" = "Создай!";
+
+/* Class = "UILabel"; text = "Проложить маршрут"; ObjectID = "hO4-Pt-YHj"; */
+"hO4-Pt-YHj.text" = "Проложить маршрут";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "hXX-fz-QN3"; */
+"hXX-fz-QN3.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "Создать"; ObjectID = "i01-4d-4kH"; */
+"i01-4d-4kH.normalTitle" = "Создать";
+
+/* Class = "UITextField"; placeholder = "Пароль"; ObjectID = "iz1-YP-GYF"; */
+"iz1-YP-GYF.placeholder" = "Пароль";
+
+/* Class = "UILabel"; text = "пароль"; ObjectID = "jhl-wK-lhZ"; */
+"jhl-wK-lhZ.text" = "пароль";
+
+/* Class = "UIButton"; normalTitle = "Отмена"; ObjectID = "p97-YY-Vf4"; */
+"p97-YY-Vf4.normalTitle" = "Отмена";
+
+/* Class = "UITextField"; placeholder = "Никнейм"; ObjectID = "pA3-T6-GXp"; */
+"pA3-T6-GXp.placeholder" = "Никнейм";
+
+/* Class = "UITextField"; placeholder = "X777XX777"; ObjectID = "pLX-gI-L4O"; */
+"pLX-gI-L4O.placeholder" = "X777XX777";
+
+/* Class = "UITabBarItem"; title = "Чаты"; ObjectID = "qog-TX-cQS"; */
+"qog-TX-cQS.title" = "Чаты";
+
+/* Class = "UILabel"; text = "This is a big big test message that should use two lines"; ObjectID = "sBP-bS-GHq"; */
+"sBP-bS-GHq.text" = "This is a big big test message that should use two lines";
+
+/* Class = "UIButton"; normalTitle = "Подтвердить"; ObjectID = "vK8-nk-Kdh"; */
+"vK8-nk-Kdh.normalTitle" = "Подтвердить";
+
+/* Class = "UIButton"; normalTitle = "Назад"; ObjectID = "wbK-hS-JTM"; */
+"wbK-hS-JTM.normalTitle" = "Назад";

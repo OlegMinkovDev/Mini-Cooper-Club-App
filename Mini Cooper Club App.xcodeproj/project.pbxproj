@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13075C581D1AABBB00CC5E97 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13075C571D1AABBB00CC5E97 /* User.swift */; };
+		13075C5A1D1AB0A900CC5E97 /* MCUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13075C591D1AB0A900CC5E97 /* MCUserController.swift */; };
+		130BD0191D23CB07005E5B4B /* MCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130BD0181D23CB07005E5B4B /* MCTabBarController.swift */; };
+		131598AB1D1C38C3002D6470 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 131598A81D1C38C3002D6470 /* Contact.m */; };
+		131598AC1D1C38C3002D6470 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 131598A91D1C38C3002D6470 /* Message.m */; };
+		131598B11D1C38F8002D6470 /* LocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 131598AE1D1C38F8002D6470 /* LocalStorage.m */; };
+		131598B21D1C38F8002D6470 /* Inputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 131598AF1D1C38F8002D6470 /* Inputbar.m */; };
+		131598B31D1C38F8002D6470 /* TableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 131598B01D1C38F8002D6470 /* TableArray.m */; };
+		131598B81D1C3910002D6470 /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 131598B51D1C3910002D6470 /* DAKeyboardControl.m */; };
+		131598B91D1C3910002D6470 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 131598B61D1C3910002D6470 /* HPGrowingTextView.m */; };
+		131598BA1D1C3910002D6470 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 131598B71D1C3910002D6470 /* HPTextViewInternal.m */; };
+		131598BD1D1C3929002D6470 /* MessageGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 131598BC1D1C3929002D6470 /* MessageGateway.m */; };
+		131598C11D1C3936002D6470 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131598BF1D1C3936002D6470 /* ChatCell.swift */; };
+		131598C21D1C3936002D6470 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 131598C01D1C3936002D6470 /* MessageCell.m */; };
+		131598C41D1C3C26002D6470 /* MCChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131598C31D1C3C26002D6470 /* MCChatViewController.swift */; };
+		1317694E1D942F1A009632DC /* sfx_message_sent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1317694B1D942F1A009632DC /* sfx_message_sent.mp3 */; };
+		1317694F1D942F1A009632DC /* SndMENU_online_login.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1317694C1D942F1A009632DC /* SndMENU_online_login.mp3 */; };
+		131769501D942F1A009632DC /* SndMENU_section_item.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1317694D1D942F1A009632DC /* SndMENU_section_item.mp3 */; };
+		131B7F901D7C125C00A76F5F /* emptyNumber.png in Resources */ = {isa = PBXBuildFile; fileRef = 131B7F8F1D7C125C00A76F5F /* emptyNumber.png */; };
+		131E5DD11D799D8E006BEF0B /* whiteCarPin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 131E5DD01D799D8E006BEF0B /* whiteCarPin@2x.png */; };
+		131F0BC21D1FD60700571BD7 /* MCMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131F0BC11D1FD60700571BD7 /* MCMessageViewController.swift */; };
+		13214B421D37A5200062C801 /* MCAddParticipantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13214B411D37A5200062C801 /* MCAddParticipantsViewController.swift */; };
+		13214E291D91A6490042F17D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13214E281D91A6490042F17D /* MapKit.framework */; };
+		1324BD2A1D929D3000CD679E /* back_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1324BD271D929D3000CD679E /* back_arrow@2x.png */; };
+		1324BD2B1D929D3000CD679E /* offline_car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1324BD281D929D3000CD679E /* offline_car@2x.png */; };
+		1324BD2C1D929D3000CD679E /* online_car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1324BD291D929D3000CD679E /* online_car@2x.png */; };
+		132B39801D4E688C00D5053C /* MCSearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132B397F1D4E688C00D5053C /* MCSearchResultsController.swift */; };
+		132D22AC1D588F5F00969778 /* enter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 132D22AB1D588F5F00969778 /* enter.jpg */; };
+		132D22AE1D5890E400969778 /* password_line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 132D22AD1D5890E400969778 /* password_line.jpg */; };
+		133071BD1D86A8D500B2C0CA /* MCGroupInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133071BC1D86A8D500B2C0CA /* MCGroupInfoViewController.swift */; };
+		133365791D7C59C600170DCE /* MCGetDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F926F91D50F81F00F4DE80 /* MCGetDirectionViewController.swift */; };
+		13542AAC1D1E8FDF00BDC0AF /* Chat.m in Sources */ = {isa = PBXBuildFile; fileRef = 13542AAB1D1E8FDF00BDC0AF /* Chat.m */; };
+		136F65781D65B303004DA133 /* autoNumber.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F65771D65B303004DA133 /* autoNumber.png */; };
+		136F657A1D65B30E004DA133 /* nameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F65791D65B30E004DA133 /* nameIcon.png */; };
+		136F657D1D65B319004DA133 /* nicknameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F657B1D65B319004DA133 /* nicknameIcon.png */; };
+		136F657E1D65B319004DA133 /* passwordIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F657C1D65B319004DA133 /* passwordIcon.png */; };
+		136F65801D65B320004DA133 /* reg_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 136F657F1D65B320004DA133 /* reg_background.jpg */; };
+		136F65851D65B53C004DA133 /* markerA.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F65811D65B53C004DA133 /* markerA.png */; };
+		136F65861D65B53C004DA133 /* markerB.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F65821D65B53C004DA133 /* markerB.png */; };
+		136F65871D65B53C004DA133 /* minusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F65831D65B53C004DA133 /* minusButton.png */; };
+		136F65881D65B53C004DA133 /* plusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F65841D65B53C004DA133 /* plusButton.png */; };
+		136F658C1D65B548004DA133 /* greenCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F65891D65B548004DA133 /* greenCircle.png */; };
+		136F658D1D65B548004DA133 /* redCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F658A1D65B548004DA133 /* redCircle.png */; };
+		136F658E1D65B548004DA133 /* yellowCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F658B1D65B548004DA133 /* yellowCircle.png */; };
+		13819FE91D670C5200BC0F2E /* blueB.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FE41D670C5200BC0F2E /* blueB.png */; };
+		13819FEA1D670C5200BC0F2E /* blueIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FE51D670C5200BC0F2E /* blueIcon.png */; };
+		13819FEB1D670C5200BC0F2E /* change.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FE61D670C5200BC0F2E /* change.png */; };
+		13819FEC1D670C5200BC0F2E /* greenA.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FE71D670C5200BC0F2E /* greenA.png */; };
+		13819FED1D670C5200BC0F2E /* greenIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FE81D670C5200BC0F2E /* greenIcon.png */; };
+		13819FF31D6770A100BC0F2E /* mapSpeech@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FF21D6770A100BC0F2E /* mapSpeech@2x.png */; };
+		13819FFB1D6771E300BC0F2E /* mapContact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FF41D6771E300BC0F2E /* mapContact@2x.png */; };
+		13819FFC1D6771E300BC0F2E /* mapContactTap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FF51D6771E300BC0F2E /* mapContactTap@2x.png */; };
+		13819FFD1D6771E300BC0F2E /* mapPlaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FF61D6771E300BC0F2E /* mapPlaceholder@2x.png */; };
+		13819FFE1D6771E300BC0F2E /* mapPlaceholderTap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FF71D6771E300BC0F2E /* mapPlaceholderTap@2x.png */; };
+		13819FFF1D6771E300BC0F2E /* mapSearch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FF81D6771E300BC0F2E /* mapSearch@2x.png */; };
+		1381A0001D6771E300BC0F2E /* mapSearchTap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FF91D6771E300BC0F2E /* mapSearchTap@2x.png */; };
+		1381A0011D6771E300BC0F2E /* mapSpeechTap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13819FFA1D6771E300BC0F2E /* mapSpeechTap@2x.png */; };
+		139AAFB41D7DB06000C86179 /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AAFB31D7DB06000C86179 /* blueCircle.png */; };
+		13ABB12D1D4F52AB000F6B10 /* RouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABB12B1D4F52AB000F6B10 /* RouteCell.swift */; };
+		13ABB1621D4F8379000F6B10 /* MCRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABB1611D4F8379000F6B10 /* MCRouteViewController.swift */; };
+		13BB794D1D5DD0C70066E9BF /* greenTraffic.png in Resources */ = {isa = PBXBuildFile; fileRef = 13BB794B1D5DD0C70066E9BF /* greenTraffic.png */; };
+		13BB794E1D5DD0C70066E9BF /* redTraffic.png in Resources */ = {isa = PBXBuildFile; fileRef = 13BB794C1D5DD0C70066E9BF /* redTraffic.png */; };
+		13C164131D5C8A9E00426DA3 /* infoWindowBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C164121D5C8A9E00426DA3 /* infoWindowBackground@2x.png */; };
+		13C164171D5CB40E00426DA3 /* greenCarPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C164141D5CB40E00426DA3 /* greenCarPin.png */; };
+		13C164181D5CB40E00426DA3 /* redCarPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C164151D5CB40E00426DA3 /* redCarPin.png */; };
+		13C164191D5CB40E00426DA3 /* yellowCarPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C164161D5CB40E00426DA3 /* yellowCarPin.png */; };
+		13C1641B1D5CBDCF00426DA3 /* infoWindowChat.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C1641A1D5CBDCF00426DA3 /* infoWindowChat.png */; };
+		13C3F0EE1D709B7200C72DE0 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3F0ED1D709B7200C72DE0 /* Error.swift */; };
+		13D262A01D16D95400089B7D /* MCSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D2629F1D16D95400089B7D /* MCSignInViewController.swift */; };
+		13D262A21D17147800089B7D /* MCMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D262A11D17147800089B7D /* MCMapViewController.swift */; };
+		13D3A0AF1D226DCD00609606 /* MCNewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3A0AE1D226DCD00609606 /* MCNewGroupViewController.swift */; };
+		13D3AA1F1D26631A00E83B68 /* MCSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3AA1E1D26631A00E83B68 /* MCSearchViewController.swift */; };
+		13D3AA211D26632D00E83B68 /* MCContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3AA201D26632D00E83B68 /* MCContactsViewController.swift */; };
+		13D3AA231D26A52800E83B68 /* MCNewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3AA221D26A52800E83B68 /* MCNewChatViewController.swift */; };
+		13D3AA251D26AC5500E83B68 /* MCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3AA241D26AC5500E83B68 /* MCNavigationController.swift */; };
+		13E3E2001D1552E700902CC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E3E1FF1D1552E700902CC5 /* AppDelegate.swift */; };
+		13E3E2021D1552E700902CC5 /* MCStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E3E2011D1552E700902CC5 /* MCStartViewController.swift */; };
+		13E3E2051D1552E700902CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E3E2031D1552E700902CC5 /* Main.storyboard */; };
+		13E3E2071D1552E700902CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E3E2061D1552E700902CC5 /* Assets.xcassets */; };
+		13E3E20A1D1552E700902CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E3E2081D1552E700902CC5 /* LaunchScreen.storyboard */; };
+		13E3E2121D15A36000902CC5 /* MCRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E3E2111D15A36000902CC5 /* MCRegistrationViewController.swift */; };
+		13E40B011D1849F50039B63B /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E40B001D1849F50039B63B /* InfoWindow.xib */; };
+		13E40B031D184AFC0039B63B /* MCCustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E40B021D184AFC0039B63B /* MCCustomInfoWindow.swift */; };
+		13EEE0491D5666BE00229CDD /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13EEE0471D5666BE00229CDD /* background.jpg */; };
+		13EEE04A1D5666BE00229CDD /* number.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13EEE0481D5666BE00229CDD /* number.jpg */; };
+		13FF86941D771D6000081922 /* MCContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FF86931D771D6000081922 /* MCContactDetailViewController.swift */; };
+		34201AD8974B3A4865A50A7A /* Pods_Mini_Cooper_Club_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1992B9506308C3CF3553B79D /* Pods_Mini_Cooper_Club_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02D27FEBA0C8F08FAB454FE0 /* Pods-Mini Cooper Club App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mini Cooper Club App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mini Cooper Club App/Pods-Mini Cooper Club App.debug.xcconfig"; sourceTree = "<group>"; };
+		13075C571D1AABBB00CC5E97 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		13075C591D1AB0A900CC5E97 /* MCUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCUserController.swift; sourceTree = "<group>"; };
+		130BD0181D23CB07005E5B4B /* MCTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCTabBarController.swift; sourceTree = "<group>"; };
+		131598A81D1C38C3002D6470 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		131598A91D1C38C3002D6470 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		131598AE1D1C38F8002D6470 /* LocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalStorage.m; sourceTree = "<group>"; };
+		131598AF1D1C38F8002D6470 /* Inputbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inputbar.m; sourceTree = "<group>"; };
+		131598B01D1C38F8002D6470 /* TableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableArray.m; sourceTree = "<group>"; };
+		131598B51D1C3910002D6470 /* DAKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAKeyboardControl.m; sourceTree = "<group>"; };
+		131598B61D1C3910002D6470 /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
+		131598B71D1C3910002D6470 /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextViewInternal.m; sourceTree = "<group>"; };
+		131598BC1D1C3929002D6470 /* MessageGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageGateway.m; sourceTree = "<group>"; };
+		131598BF1D1C3936002D6470 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		131598C01D1C3936002D6470 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		131598C31D1C3C26002D6470 /* MCChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCChatViewController.swift; sourceTree = "<group>"; };
+		1317694B1D942F1A009632DC /* sfx_message_sent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sfx_message_sent.mp3; path = Design/sfx_message_sent.mp3; sourceTree = "<group>"; };
+		1317694C1D942F1A009632DC /* SndMENU_online_login.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SndMENU_online_login.mp3; path = Design/SndMENU_online_login.mp3; sourceTree = "<group>"; };
+		1317694D1D942F1A009632DC /* SndMENU_section_item.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SndMENU_section_item.mp3; path = Design/SndMENU_section_item.mp3; sourceTree = "<group>"; };
+		131B7F8F1D7C125C00A76F5F /* emptyNumber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emptyNumber.png; path = Design/emptyNumber.png; sourceTree = "<group>"; };
+		131E5DD01D799D8E006BEF0B /* whiteCarPin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "whiteCarPin@2x.png"; path = "Design/whiteCarPin@2x.png"; sourceTree = "<group>"; };
+		131F0BC11D1FD60700571BD7 /* MCMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCMessageViewController.swift; sourceTree = "<group>"; };
+		13214B411D37A5200062C801 /* MCAddParticipantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCAddParticipantsViewController.swift; sourceTree = "<group>"; };
+		13214E271D91A63B0042F17D /* Mini Cooper Club App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mini Cooper Club App.entitlements"; sourceTree = "<group>"; };
+		13214E281D91A6490042F17D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1324BD271D929D3000CD679E /* back_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_arrow@2x.png"; path = "Design/back_arrow@2x.png"; sourceTree = "<group>"; };
+		1324BD281D929D3000CD679E /* offline_car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "offline_car@2x.png"; path = "Design/offline_car@2x.png"; sourceTree = "<group>"; };
+		1324BD291D929D3000CD679E /* online_car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "online_car@2x.png"; path = "Design/online_car@2x.png"; sourceTree = "<group>"; };
+		132B397F1D4E688C00D5053C /* MCSearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCSearchResultsController.swift; sourceTree = "<group>"; };
+		132D22AB1D588F5F00969778 /* enter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = enter.jpg; path = Design/enter.jpg; sourceTree = "<group>"; };
+		132D22AD1D5890E400969778 /* password_line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = password_line.jpg; path = Design/password_line.jpg; sourceTree = "<group>"; };
+		133071BC1D86A8D500B2C0CA /* MCGroupInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCGroupInfoViewController.swift; sourceTree = "<group>"; };
+		13542AAB1D1E8FDF00BDC0AF /* Chat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chat.m; sourceTree = "<group>"; };
+		136F65771D65B303004DA133 /* autoNumber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = autoNumber.png; path = Design/autoNumber.png; sourceTree = "<group>"; };
+		136F65791D65B30E004DA133 /* nameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nameIcon.png; path = Design/nameIcon.png; sourceTree = "<group>"; };
+		136F657B1D65B319004DA133 /* nicknameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nicknameIcon.png; path = Design/nicknameIcon.png; sourceTree = "<group>"; };
+		136F657C1D65B319004DA133 /* passwordIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passwordIcon.png; path = Design/passwordIcon.png; sourceTree = "<group>"; };
+		136F657F1D65B320004DA133 /* reg_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = reg_background.jpg; path = Design/reg_background.jpg; sourceTree = "<group>"; };
+		136F65811D65B53C004DA133 /* markerA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerA.png; path = Design/markerA.png; sourceTree = "<group>"; };
+		136F65821D65B53C004DA133 /* markerB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerB.png; path = Design/markerB.png; sourceTree = "<group>"; };
+		136F65831D65B53C004DA133 /* minusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minusButton.png; path = Design/minusButton.png; sourceTree = "<group>"; };
+		136F65841D65B53C004DA133 /* plusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plusButton.png; path = Design/plusButton.png; sourceTree = "<group>"; };
+		136F65891D65B548004DA133 /* greenCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenCircle.png; path = Design/greenCircle.png; sourceTree = "<group>"; };
+		136F658A1D65B548004DA133 /* redCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redCircle.png; path = Design/redCircle.png; sourceTree = "<group>"; };
+		136F658B1D65B548004DA133 /* yellowCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowCircle.png; path = Design/yellowCircle.png; sourceTree = "<group>"; };
+		13819FE41D670C5200BC0F2E /* blueB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueB.png; path = Design/blueB.png; sourceTree = "<group>"; };
+		13819FE51D670C5200BC0F2E /* blueIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueIcon.png; path = Design/blueIcon.png; sourceTree = "<group>"; };
+		13819FE61D670C5200BC0F2E /* change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = change.png; path = Design/change.png; sourceTree = "<group>"; };
+		13819FE71D670C5200BC0F2E /* greenA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenA.png; path = Design/greenA.png; sourceTree = "<group>"; };
+		13819FE81D670C5200BC0F2E /* greenIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenIcon.png; path = Design/greenIcon.png; sourceTree = "<group>"; };
+		13819FF21D6770A100BC0F2E /* mapSpeech@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapSpeech@2x.png"; path = "Design/mapSpeech@2x.png"; sourceTree = "<group>"; };
+		13819FF41D6771E300BC0F2E /* mapContact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapContact@2x.png"; path = "Design/mapContact@2x.png"; sourceTree = "<group>"; };
+		13819FF51D6771E300BC0F2E /* mapContactTap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapContactTap@2x.png"; path = "Design/mapContactTap@2x.png"; sourceTree = "<group>"; };
+		13819FF61D6771E300BC0F2E /* mapPlaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapPlaceholder@2x.png"; path = "Design/mapPlaceholder@2x.png"; sourceTree = "<group>"; };
+		13819FF71D6771E300BC0F2E /* mapPlaceholderTap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapPlaceholderTap@2x.png"; path = "Design/mapPlaceholderTap@2x.png"; sourceTree = "<group>"; };
+		13819FF81D6771E300BC0F2E /* mapSearch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapSearch@2x.png"; path = "Design/mapSearch@2x.png"; sourceTree = "<group>"; };
+		13819FF91D6771E300BC0F2E /* mapSearchTap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapSearchTap@2x.png"; path = "Design/mapSearchTap@2x.png"; sourceTree = "<group>"; };
+		13819FFA1D6771E300BC0F2E /* mapSpeechTap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapSpeechTap@2x.png"; path = "Design/mapSpeechTap@2x.png"; sourceTree = "<group>"; };
+		139AAFB31D7DB06000C86179 /* blueCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueCircle.png; path = Design/blueCircle.png; sourceTree = "<group>"; };
+		13ABB12B1D4F52AB000F6B10 /* RouteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteCell.swift; sourceTree = "<group>"; };
+		13ABB1611D4F8379000F6B10 /* MCRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCRouteViewController.swift; sourceTree = "<group>"; };
+		13BB794B1D5DD0C70066E9BF /* greenTraffic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenTraffic.png; path = Design/greenTraffic.png; sourceTree = "<group>"; };
+		13BB794C1D5DD0C70066E9BF /* redTraffic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redTraffic.png; path = Design/redTraffic.png; sourceTree = "<group>"; };
+		13C164121D5C8A9E00426DA3 /* infoWindowBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "infoWindowBackground@2x.png"; path = "Design/infoWindowBackground@2x.png"; sourceTree = "<group>"; };
+		13C164141D5CB40E00426DA3 /* greenCarPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenCarPin.png; path = Design/greenCarPin.png; sourceTree = "<group>"; };
+		13C164151D5CB40E00426DA3 /* redCarPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redCarPin.png; path = Design/redCarPin.png; sourceTree = "<group>"; };
+		13C164161D5CB40E00426DA3 /* yellowCarPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowCarPin.png; path = Design/yellowCarPin.png; sourceTree = "<group>"; };
+		13C1641A1D5CBDCF00426DA3 /* infoWindowChat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = infoWindowChat.png; path = Design/infoWindowChat.png; sourceTree = "<group>"; };
+		13C3F0ED1D709B7200C72DE0 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		13D2629F1D16D95400089B7D /* MCSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCSignInViewController.swift; sourceTree = "<group>"; };
+		13D262A11D17147800089B7D /* MCMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCMapViewController.swift; sourceTree = "<group>"; };
+		13D3A0AE1D226DCD00609606 /* MCNewGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCNewGroupViewController.swift; sourceTree = "<group>"; };
+		13D3AA1E1D26631A00E83B68 /* MCSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCSearchViewController.swift; sourceTree = "<group>"; };
+		13D3AA201D26632D00E83B68 /* MCContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCContactsViewController.swift; sourceTree = "<group>"; };
+		13D3AA221D26A52800E83B68 /* MCNewChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCNewChatViewController.swift; sourceTree = "<group>"; };
+		13D3AA241D26AC5500E83B68 /* MCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCNavigationController.swift; sourceTree = "<group>"; };
+		13E3E1FC1D1552E700902CC5 /* Mini Cooper Club App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Cooper Club App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E3E1FF1D1552E700902CC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13E3E2011D1552E700902CC5 /* MCStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCStartViewController.swift; sourceTree = "<group>"; };
+		13E3E2041D1552E700902CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13E3E2061D1552E700902CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13E3E2091D1552E700902CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13E3E20B1D1552E700902CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E3E2111D15A36000902CC5 /* MCRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCRegistrationViewController.swift; sourceTree = "<group>"; };
+		13E3E2151D15EDFE00902CC5 /* Mini Cooper Club App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mini Cooper Club App-Bridging-Header.h"; sourceTree = "<group>"; };
+		13E40B001D1849F50039B63B /* InfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
+		13E40B021D184AFC0039B63B /* MCCustomInfoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCustomInfoWindow.swift; sourceTree = "<group>"; };
+		13EEE0471D5666BE00229CDD /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = Design/background.jpg; sourceTree = "<group>"; };
+		13EEE0481D5666BE00229CDD /* number.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = number.jpg; path = Design/number.jpg; sourceTree = "<group>"; };
+		13F926F91D50F81F00F4DE80 /* MCGetDirectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCGetDirectionViewController.swift; sourceTree = "<group>"; };
+		13FF86931D771D6000081922 /* MCContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCContactDetailViewController.swift; sourceTree = "<group>"; };
+		1992B9506308C3CF3553B79D /* Pods_Mini_Cooper_Club_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mini_Cooper_Club_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC39374CACF036F33C12CF4 /* Pods-Mini Cooper Club App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mini Cooper Club App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mini Cooper Club App/Pods-Mini Cooper Club App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E3E1F91D1552E700902CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13214E291D91A6490042F17D /* MapKit.framework in Frameworks */,
+				34201AD8974B3A4865A50A7A /* Pods_Mini_Cooper_Club_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13075C551D1AAB2C00CC5E97 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				13075C591D1AB0A900CC5E97 /* MCUserController.swift */,
+				130BD0181D23CB07005E5B4B /* MCTabBarController.swift */,
+				13D3AA241D26AC5500E83B68 /* MCNavigationController.swift */,
+				135DED9A1D533853006C563C /* Search */,
+				135DED9B1D53385C006C563C /* Map */,
+				135DED9C1D533865006C563C /* Contacts */,
+				135DED9D1D53386C006C563C /* Chats */,
+				13E3E2011D1552E700902CC5 /* MCStartViewController.swift */,
+				13E3E2111D15A36000902CC5 /* MCRegistrationViewController.swift */,
+				13D2629F1D16D95400089B7D /* MCSignInViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		13075C561D1AAB5D00CC5E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13075C571D1AABBB00CC5E97 /* User.swift */,
+				13E3E1FF1D1552E700902CC5 /* AppDelegate.swift */,
+				131598A81D1C38C3002D6470 /* Contact.m */,
+				131598A91D1C38C3002D6470 /* Message.m */,
+				13542AAB1D1E8FDF00BDC0AF /* Chat.m */,
+				13C3F0ED1D709B7200C72DE0 /* Error.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		131598AD1D1C38E5002D6470 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				131598AE1D1C38F8002D6470 /* LocalStorage.m */,
+				131598AF1D1C38F8002D6470 /* Inputbar.m */,
+				131598B01D1C38F8002D6470 /* TableArray.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		131598B41D1C3900002D6470 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				131598B51D1C3910002D6470 /* DAKeyboardControl.m */,
+				131598B61D1C3910002D6470 /* HPGrowingTextView.m */,
+				131598B71D1C3910002D6470 /* HPTextViewInternal.m */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		131598BB1D1C3919002D6470 /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				131598BC1D1C3929002D6470 /* MessageGateway.m */,
+			);
+			name = Gateway;
+			sourceTree = "<group>";
+		};
+		131598BE1D1C392E002D6470 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				131598BF1D1C3936002D6470 /* ChatCell.swift */,
+				131598C01D1C3936002D6470 /* MessageCell.m */,
+				13ABB12B1D4F52AB000F6B10 /* RouteCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		135DED9A1D533853006C563C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				13D3AA1E1D26631A00E83B68 /* MCSearchViewController.swift */,
+				132B397F1D4E688C00D5053C /* MCSearchResultsController.swift */,
+				13ABB1611D4F8379000F6B10 /* MCRouteViewController.swift */,
+				13F926F91D50F81F00F4DE80 /* MCGetDirectionViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		135DED9B1D53385C006C563C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				13D262A11D17147800089B7D /* MCMapViewController.swift */,
+				13E40B021D184AFC0039B63B /* MCCustomInfoWindow.swift */,
+				13E40B001D1849F50039B63B /* InfoWindow.xib */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		135DED9C1D533865006C563C /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				13D3AA201D26632D00E83B68 /* MCContactsViewController.swift */,
+				13FF86931D771D6000081922 /* MCContactDetailViewController.swift */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		135DED9D1D53386C006C563C /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				131598C31D1C3C26002D6470 /* MCChatViewController.swift */,
+				131F0BC11D1FD60700571BD7 /* MCMessageViewController.swift */,
+				13D3A0AE1D226DCD00609606 /* MCNewGroupViewController.swift */,
+				13214B411D37A5200062C801 /* MCAddParticipantsViewController.swift */,
+				13D3AA221D26A52800E83B68 /* MCNewChatViewController.swift */,
+				133071BC1D86A8D500B2C0CA /* MCGroupInfoViewController.swift */,
+			);
+			name = Chats;
+			sourceTree = "<group>";
+		};
+		13E3E1F31D1552E700902CC5 = {
+			isa = PBXGroup;
+			children = (
+				13E3E1FE1D1552E700902CC5 /* Mini Cooper Club App */,
+				13E3E1FD1D1552E700902CC5 /* Products */,
+				1BAC9658AAAD470078E593B8 /* Pods */,
+				234A8D54D285D1A73F757F74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13E3E1FD1D1552E700902CC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E3E1FC1D1552E700902CC5 /* Mini Cooper Club App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13E3E1FE1D1552E700902CC5 /* Mini Cooper Club App */ = {
+			isa = PBXGroup;
+			children = (
+				13214E271D91A63B0042F17D /* Mini Cooper Club App.entitlements */,
+				13EEE0461D56669C00229CDD /* Design */,
+				131598BE1D1C392E002D6470 /* Cells */,
+				131598BB1D1C3919002D6470 /* Gateway */,
+				131598B41D1C3900002D6470 /* Third Party */,
+				131598AD1D1C38E5002D6470 /* Helpers */,
+				13075C561D1AAB5D00CC5E97 /* Model */,
+				13075C551D1AAB2C00CC5E97 /* ViewController */,
+				13E3E2031D1552E700902CC5 /* Main.storyboard */,
+				13E3E2061D1552E700902CC5 /* Assets.xcassets */,
+				13E3E2081D1552E700902CC5 /* LaunchScreen.storyboard */,
+				13E3E20B1D1552E700902CC5 /* Info.plist */,
+				13E3E2151D15EDFE00902CC5 /* Mini Cooper Club App-Bridging-Header.h */,
+			);
+			path = "Mini Cooper Club App";
+			sourceTree = "<group>";
+		};
+		13EEE0461D56669C00229CDD /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				131B7F8F1D7C125C00A76F5F /* emptyNumber.png */,
+				13819FF41D6771E300BC0F2E /* mapContact@2x.png */,
+				13819FF51D6771E300BC0F2E /* mapContactTap@2x.png */,
+				13819FF61D6771E300BC0F2E /* mapPlaceholder@2x.png */,
+				13819FF71D6771E300BC0F2E /* mapPlaceholderTap@2x.png */,
+				13819FF81D6771E300BC0F2E /* mapSearch@2x.png */,
+				13819FF91D6771E300BC0F2E /* mapSearchTap@2x.png */,
+				13819FFA1D6771E300BC0F2E /* mapSpeechTap@2x.png */,
+				13819FF21D6770A100BC0F2E /* mapSpeech@2x.png */,
+				136F65771D65B303004DA133 /* autoNumber.png */,
+				136F65791D65B30E004DA133 /* nameIcon.png */,
+				136F657B1D65B319004DA133 /* nicknameIcon.png */,
+				136F657C1D65B319004DA133 /* passwordIcon.png */,
+				136F657F1D65B320004DA133 /* reg_background.jpg */,
+				13EEE0471D5666BE00229CDD /* background.jpg */,
+				13EEE0481D5666BE00229CDD /* number.jpg */,
+				132D22AB1D588F5F00969778 /* enter.jpg */,
+				132D22AD1D5890E400969778 /* password_line.jpg */,
+				13C164121D5C8A9E00426DA3 /* infoWindowBackground@2x.png */,
+				13C1641A1D5CBDCF00426DA3 /* infoWindowChat.png */,
+				13C164141D5CB40E00426DA3 /* greenCarPin.png */,
+				13C164151D5CB40E00426DA3 /* redCarPin.png */,
+				13C164161D5CB40E00426DA3 /* yellowCarPin.png */,
+				131E5DD01D799D8E006BEF0B /* whiteCarPin@2x.png */,
+				13BB794B1D5DD0C70066E9BF /* greenTraffic.png */,
+				13BB794C1D5DD0C70066E9BF /* redTraffic.png */,
+				136F65811D65B53C004DA133 /* markerA.png */,
+				136F65821D65B53C004DA133 /* markerB.png */,
+				136F65831D65B53C004DA133 /* minusButton.png */,
+				136F65841D65B53C004DA133 /* plusButton.png */,
+				139AAFB31D7DB06000C86179 /* blueCircle.png */,
+				136F65891D65B548004DA133 /* greenCircle.png */,
+				136F658A1D65B548004DA133 /* redCircle.png */,
+				136F658B1D65B548004DA133 /* yellowCircle.png */,
+				13819FE41D670C5200BC0F2E /* blueB.png */,
+				13819FE51D670C5200BC0F2E /* blueIcon.png */,
+				13819FE61D670C5200BC0F2E /* change.png */,
+				13819FE71D670C5200BC0F2E /* greenA.png */,
+				13819FE81D670C5200BC0F2E /* greenIcon.png */,
+				1324BD271D929D3000CD679E /* back_arrow@2x.png */,
+				1324BD281D929D3000CD679E /* offline_car@2x.png */,
+				1324BD291D929D3000CD679E /* online_car@2x.png */,
+				1317694B1D942F1A009632DC /* sfx_message_sent.mp3 */,
+				1317694C1D942F1A009632DC /* SndMENU_online_login.mp3 */,
+				1317694D1D942F1A009632DC /* SndMENU_section_item.mp3 */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+		1BAC9658AAAD470078E593B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02D27FEBA0C8F08FAB454FE0 /* Pods-Mini Cooper Club App.debug.xcconfig */,
+				6DC39374CACF036F33C12CF4 /* Pods-Mini Cooper Club App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		234A8D54D285D1A73F757F74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13214E281D91A6490042F17D /* MapKit.framework */,
+				1992B9506308C3CF3553B79D /* Pods_Mini_Cooper_Club_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E3E1FB1D1552E700902CC5 /* Mini Cooper Club App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E3E20E1D1552E700902CC5 /* Build configuration list for PBXNativeTarget "Mini Cooper Club App" */;
+			buildPhases = (
+				CE656821C369EAE30773E7C7 /* Check Pods Manifest.lock */,
+				13E3E1F81D1552E700902CC5 /* Sources */,
+				13E3E1F91D1552E700902CC5 /* Frameworks */,
+				13E3E1FA1D1552E700902CC5 /* Resources */,
+				286CF3AE86E884A831E10DBD /* Embed Pods Frameworks */,
+				55E6A4EB53BC069D6DA3E371 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mini Cooper Club App";
+			productName = "Mini Cooper Club App";
+			productReference = 13E3E1FC1D1552E700902CC5 /* Mini Cooper Club App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E3E1F41D1552E700902CC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Oleg Minkov";
+				TargetAttributes = {
+					13E3E1FB1D1552E700902CC5 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 13E3E1F71D1552E700902CC5 /* Build configuration list for PBXProject "Mini Cooper Club App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E3E1F31D1552E700902CC5;
+			productRefGroup = 13E3E1FD1D1552E700902CC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E3E1FB1D1552E700902CC5 /* Mini Cooper Club App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13E3E1FA1D1552E700902CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13819FEC1D670C5200BC0F2E /* greenA.png in Resources */,
+				136F65881D65B53C004DA133 /* plusButton.png in Resources */,
+				13819FE91D670C5200BC0F2E /* blueB.png in Resources */,
+				1381A0011D6771E300BC0F2E /* mapSpeechTap@2x.png in Resources */,
+				136F65851D65B53C004DA133 /* markerA.png in Resources */,
+				1324BD2A1D929D3000CD679E /* back_arrow@2x.png in Resources */,
+				13E40B011D1849F50039B63B /* InfoWindow.xib in Resources */,
+				13C164181D5CB40E00426DA3 /* redCarPin.png in Resources */,
+				136F658C1D65B548004DA133 /* greenCircle.png in Resources */,
+				13EEE0491D5666BE00229CDD /* background.jpg in Resources */,
+				1317694E1D942F1A009632DC /* sfx_message_sent.mp3 in Resources */,
+				13819FEA1D670C5200BC0F2E /* blueIcon.png in Resources */,
+				132D22AE1D5890E400969778 /* password_line.jpg in Resources */,
+				136F658D1D65B548004DA133 /* redCircle.png in Resources */,
+				13819FFC1D6771E300BC0F2E /* mapContactTap@2x.png in Resources */,
+				13C164191D5CB40E00426DA3 /* yellowCarPin.png in Resources */,
+				136F65861D65B53C004DA133 /* markerB.png in Resources */,
+				136F657A1D65B30E004DA133 /* nameIcon.png in Resources */,
+				13C164171D5CB40E00426DA3 /* greenCarPin.png in Resources */,
+				13C164131D5C8A9E00426DA3 /* infoWindowBackground@2x.png in Resources */,
+				13E3E20A1D1552E700902CC5 /* LaunchScreen.storyboard in Resources */,
+				136F65871D65B53C004DA133 /* minusButton.png in Resources */,
+				13819FFD1D6771E300BC0F2E /* mapPlaceholder@2x.png in Resources */,
+				136F65801D65B320004DA133 /* reg_background.jpg in Resources */,
+				1381A0001D6771E300BC0F2E /* mapSearchTap@2x.png in Resources */,
+				13819FFF1D6771E300BC0F2E /* mapSearch@2x.png in Resources */,
+				13E3E2071D1552E700902CC5 /* Assets.xcassets in Resources */,
+				1324BD2C1D929D3000CD679E /* online_car@2x.png in Resources */,
+				1317694F1D942F1A009632DC /* SndMENU_online_login.mp3 in Resources */,
+				13819FFB1D6771E300BC0F2E /* mapContact@2x.png in Resources */,
+				13819FEB1D670C5200BC0F2E /* change.png in Resources */,
+				136F65781D65B303004DA133 /* autoNumber.png in Resources */,
+				13C1641B1D5CBDCF00426DA3 /* infoWindowChat.png in Resources */,
+				13BB794E1D5DD0C70066E9BF /* redTraffic.png in Resources */,
+				13EEE04A1D5666BE00229CDD /* number.jpg in Resources */,
+				136F657D1D65B319004DA133 /* nicknameIcon.png in Resources */,
+				13819FF31D6770A100BC0F2E /* mapSpeech@2x.png in Resources */,
+				13E3E2051D1552E700902CC5 /* Main.storyboard in Resources */,
+				13819FED1D670C5200BC0F2E /* greenIcon.png in Resources */,
+				132D22AC1D588F5F00969778 /* enter.jpg in Resources */,
+				13BB794D1D5DD0C70066E9BF /* greenTraffic.png in Resources */,
+				13819FFE1D6771E300BC0F2E /* mapPlaceholderTap@2x.png in Resources */,
+				131E5DD11D799D8E006BEF0B /* whiteCarPin@2x.png in Resources */,
+				1324BD2B1D929D3000CD679E /* offline_car@2x.png in Resources */,
+				136F658E1D65B548004DA133 /* yellowCircle.png in Resources */,
+				131769501D942F1A009632DC /* SndMENU_section_item.mp3 in Resources */,
+				131B7F901D7C125C00A76F5F /* emptyNumber.png in Resources */,
+				139AAFB41D7DB06000C86179 /* blueCircle.png in Resources */,
+				136F657E1D65B319004DA133 /* passwordIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		286CF3AE86E884A831E10DBD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mini Cooper Club App/Pods-Mini Cooper Club App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E6A4EB53BC069D6DA3E371 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mini Cooper Club App/Pods-Mini Cooper Club App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE656821C369EAE30773E7C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E3E1F81D1552E700902CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131598BD1D1C3929002D6470 /* MessageGateway.m in Sources */,
+				13D262A21D17147800089B7D /* MCMapViewController.swift in Sources */,
+				131598AC1D1C38C3002D6470 /* Message.m in Sources */,
+				13E3E2121D15A36000902CC5 /* MCRegistrationViewController.swift in Sources */,
+				13E40B031D184AFC0039B63B /* MCCustomInfoWindow.swift in Sources */,
+				13E3E2021D1552E700902CC5 /* MCStartViewController.swift in Sources */,
+				131598B81D1C3910002D6470 /* DAKeyboardControl.m in Sources */,
+				13D3AA211D26632D00E83B68 /* MCContactsViewController.swift in Sources */,
+				13D262A01D16D95400089B7D /* MCSignInViewController.swift in Sources */,
+				13E3E2001D1552E700902CC5 /* AppDelegate.swift in Sources */,
+				131598B91D1C3910002D6470 /* HPGrowingTextView.m in Sources */,
+				13FF86941D771D6000081922 /* MCContactDetailViewController.swift in Sources */,
+				13214B421D37A5200062C801 /* MCAddParticipantsViewController.swift in Sources */,
+				133365791D7C59C600170DCE /* MCGetDirectionViewController.swift in Sources */,
+				13D3AA231D26A52800E83B68 /* MCNewChatViewController.swift in Sources */,
+				13D3AA1F1D26631A00E83B68 /* MCSearchViewController.swift in Sources */,
+				131598B21D1C38F8002D6470 /* Inputbar.m in Sources */,
+				130BD0191D23CB07005E5B4B /* MCTabBarController.swift in Sources */,
+				133071BD1D86A8D500B2C0CA /* MCGroupInfoViewController.swift in Sources */,
+				131F0BC21D1FD60700571BD7 /* MCMessageViewController.swift in Sources */,
+				131598C21D1C3936002D6470 /* MessageCell.m in Sources */,
+				13ABB12D1D4F52AB000F6B10 /* RouteCell.swift in Sources */,
+				131598AB1D1C38C3002D6470 /* Contact.m in Sources */,
+				13ABB1621D4F8379000F6B10 /* MCRouteViewController.swift in Sources */,
+				13542AAC1D1E8FDF00BDC0AF /* Chat.m in Sources */,
+				131598C11D1C3936002D6470 /* ChatCell.swift in Sources */,
+				131598C41D1C3C26002D6470 /* MCChatViewController.swift in Sources */,
+				13D3A0AF1D226DCD00609606 /* MCNewGroupViewController.swift in Sources */,
+				131598BA1D1C3910002D6470 /* HPTextViewInternal.m in Sources */,
+				131598B11D1C38F8002D6470 /* LocalStorage.m in Sources */,
+				13075C5A1D1AB0A900CC5E97 /* MCUserController.swift in Sources */,
+				13075C581D1AABBB00CC5E97 /* User.swift in Sources */,
+				131598B31D1C38F8002D6470 /* TableArray.m in Sources */,
+				132B39801D4E688C00D5053C /* MCSearchResultsController.swift in Sources */,
+				13C3F0EE1D709B7200C72DE0 /* Error.swift in Sources */,
+				13D3AA251D26AC5500E83B68 /* MCNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13E3E2031D1552E700902CC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E3E2041D1552E700902CC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13E3E2081D1552E700902CC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E3E2091D1552E700902CC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13E3E20C1D1552E700902CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13E3E20D1D1552E700902CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E3E20F1D1552E700902CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D27FEBA0C8F08FAB454FE0 /* Pods-Mini Cooper Club App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Mini Cooper Club App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Minkov-Inc.Mini-Cooper-Club-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mini Cooper Club App/Mini Cooper Club App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		13E3E2101D1552E700902CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DC39374CACF036F33C12CF4 /* Pods-Mini Cooper Club App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Mini Cooper Club App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Minkov-Inc.Mini-Cooper-Club-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mini Cooper Club App/Mini Cooper Club App-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E3E1F71D1552E700902CC5 /* Build configuration list for PBXProject "Mini Cooper Club App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E3E20C1D1552E700902CC5 /* Debug */,
+				13E3E20D1D1552E700902CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E3E20E1D1552E700902CC5 /* Build configuration list for PBXNativeTarget "Mini Cooper Club App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E3E20F1D1552E700902CC5 /* Debug */,
+				13E3E2101D1552E700902CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13E3E1F41D1552E700902CC5 /* Project object */;
+}
